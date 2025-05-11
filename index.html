@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de QR Code</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de QR Code</h1>
+        <p>Insira um link para gerar um QR Code.</p>
+        <input type="text" id="urlInput" placeholder="Cole seu link aqui">
+        <button id="generateBtn">Gerar QR Code</button>
+        <div id="qrCodeOutput">
+            <p>QR Code gerado aparecerá aqui:</p>
+        </div>
+        <button id="downloadBtn" style="display:none;">Baixar QR Code</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
